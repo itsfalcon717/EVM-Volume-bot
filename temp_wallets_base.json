@@ -1,0 +1,17 @@
+[
+  {
+    "address": "0x9E8226503Dc7eebC8339acCE6635FE4bc8A20223",
+    "privateKey": "93b1cf99c9eee13e799ef4c888072261ec357d4ff265e17cc6e96508980db0e9",
+    "lastTradeTime": 1731991976453
+  },
+  {
+    "address": "0x8F8EeBC3Ceab4Bb7C3A2F7d518A342de393229ef",
+    "privateKey": "18a9c6e5d80422f437deb1bf4d04207b6e54126fbf357a5fbeb491ad81ca4d30",
+    "lastTradeTime": 1731992313863
+  },
+  {
+    "address": "0x77fD831803228E0cf333Fa7D4735Faf3e9bAe245",
+    "privateKey": "6926689fd39234715f33d2c56bf017ed3f46db3e7f6facb8994f0e7ab6dbdbfe",
+    "lastTradeTime": 0
+  }
+]

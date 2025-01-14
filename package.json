@@ -1,0 +1,21 @@
+{
+  "name": "volumebotv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-sdk": "^4.4.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "nodemon": "^3.1.7"
+  }
+}
