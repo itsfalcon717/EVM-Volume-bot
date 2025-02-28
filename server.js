@@ -298,7 +298,7 @@ class MultiChainTradingBot {
 
     await tx.wait();
   }
-
+//sellTokens
   async sellTokensForETH(wallet, availableAmount, gasPrice) {
     const sellPercentage = 0.3 + Math.random() * 0.4;
     const amountToSell = availableAmount * sellPercentage;
