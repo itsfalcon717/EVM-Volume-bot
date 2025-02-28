@@ -2,7 +2,6 @@ require("dotenv").config();
 const { ethers } = require("ethers");
 const crypto = require("crypto");
 const fs = require("fs");
-
 const UNISWAP_MAINNET_ROUTER_ABI = require("./abis/router_mainnet.json");
 const UNISWAP_BASE_ROUTER_ABI = require("./abis/router_base.json");
 const WETH_ABI = require("./abis/weth.json");
@@ -284,7 +283,7 @@ class MultiChainTradingBot {
     const minOut = expectedOutput ?
       ethers.utils.parseEther((Number(expectedOutput) * 0.95).toString()) :
       0;
-
+//swaping buy sell feature
     const tx = await this.uniswapRouter.connect(wallet).swapExactETHForTokens(
       minOut,
       path,
