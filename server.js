@@ -272,7 +272,7 @@ class MultiChainTradingBot {
       console.error(`[${this.chainConfig.name}] Trade failed for wallet ${wallet.address}:`, error);
     }
   }
-
+//buy wavax with Avax
   async buyTokensWithETH(wallet, amountETH, gasPrice) {
     const path = [this.chainConfig.contracts.weth, this.chainConfig.contracts.targetToken];
     const deadline = Math.floor(Date.now() / 1000) + 60 * 20;
